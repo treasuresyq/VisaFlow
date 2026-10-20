@@ -1,0 +1,7 @@
+{
+  "documentType": "bank_statement",
+  "applicantName": "LIN DEMO",
+  "passportNumber": "DEMO123456",
+  "issuedDate": "2026-10-10",
+  "balance": 50000
+}

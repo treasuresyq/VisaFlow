@@ -1,0 +1,17 @@
+{
+  "id": "visaflow-tools",
+  "name": "VisaFlow 材料核验工具",
+  "slug": "visaflow-tools",
+  "type": "mcp",
+  "provider": "visaflow",
+  "enabled": true,
+  "mcp": {
+    "transport": "stdio",
+    "command": "bun",
+    "args": ["C:/path/to/VisaFlow/app/packages/visaflow-core/src/mcp.ts"],
+    "env": { "VISAFLOW_DATA_DIR": "C:/path/to/visaflow-data", "VISAFLOW_CASE_ID": "replace-with-current-case-id" },
+    "authType": "none"
+  },
+  "icon": "🛂",
+  "tagline": "演示规则、材料取证、字段核验和待人工审批通知"
+}
